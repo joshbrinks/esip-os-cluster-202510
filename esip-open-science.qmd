@@ -1,0 +1,345 @@
+---
+title: "ISciences Open Science Portfolio"
+subtitle: "Advancing Earth Science Research Through Open Tools and Education"
+transition: slide
+preload-iframes: true
+lightbox: true
+author: "Joshua Brinks"
+email: jbrinks@isciences.com
+institute: "Research Scientist, ISciences,        
+  LLC<br><a href='mailto:jbrinks@isciences.com'     
+  style='color:
+  #2780e3;'>jbrinks@isciences.com</a>"
+preview-links: true
+highlight-style: dracula
+format:
+  revealjs:
+    title-slide-attributes:
+      data-background-iframe: "https://joshbrinks.github.io/aag25/multiple-images/index.html"
+    auto-stretch: false
+    footer: "ESIP Open Science Cluster Showcase | October 28, 2025"
+    logo: "isci_logo.png"
+    embed-resources: true
+    theme: "school_theme.scss"
+    include-after-body: no_footer_title.html
+---
+
+## Presentation Outline {.smaller}
+
+- ISciences Overview
+- DANTE: Data Analysis Toolbox for Environmental Research
+- TOPS-SCHOOL: NASA's Open Science Training Curriculum
+- SCALAR: AI Literacy for Earth Scientists
+- nClimGrid Explorer: Interactive Climate Data Visualization
+- exactextractr: High-Performance Zonal Statistics Package
+- GDAL Contributions: Enhancing Open Geospatial Tools
+- WSIM: Water Security Indicator Model
+
+## ISciences {.smaller}
+
+::: {.columns style='display: flex !important; height: 50%; font-size: 0.85em;'}
+::: {.column width="50%"}
+### Who We Are {.smaller }
+- FOSS Focused Research and technology firm based in Burlington, VT
+- Specializing in geospatial analytics and applied statistical modeling
+- Focus on water resources, political instability environmental monitoring, and risk assessment
+- Small team of scientists, engineers, and developers
+:::
+
+::: {.column width="50%"}
+### What We Do {.smaller}
+- Partner with agencies including NASA, NOAA, USACE, intelligence
+- Develop water security monitoring systems (WSIM)
+- Develop open source software, packages, and educational materials
+- Support decision-making through data-driven insights
+
+:::
+:::
+
+![](isci-marketing.png){width="100%"}
+
+## Broader Benefits {.smaller}
+
+::::: {.columns style='display: flex !important; height: 90%;'}
+::: {.column width="60%" style='display: flex; flex-direction: column; justify-content: center; align-items: center;'}
+::: {style="max-width: 100%; overflow-x: auto;"}
+- Roadmaps for access to data and tools
+- Reduce barriers for learning these tool
+- Enable participation from diverse stakeholders
+- Solicit feeback from under-resourced communities
+- Builds trust through transparency
+:::
+:::
+
+::: {.column width="40%" style='display: flex; justify-content: center; align-items: center;'}
+![](Circle_Diagram_UPDATE_2.png){width="85%"}
+:::
+:::::
+
+## DANTE {.smaller}
+
+##### Data Analysis Toolbox for Environmental Research
+
+::::: {.columns style='display: flex !important; height: 90%;'}
+::: {.column width="55%" style='display: flex; flex-direction: column; justify-content: center; align-items: center; font-size: 0.85em;'}
+
+#### Overview
+- Collaborative open-science platform developed by USACE, ISciences, Columbia's CIESIN, and CASE International
+- Accelerates multidisciplinary environment-security applied research
+- Bridges political science, social science, geography, environmental sciences, and defense communities
+
+#### Access
+- [dante-project.org](https://www.dante-project.org)
+- [gitlab.com/dante-sttr](https://gitlab.com/dante-sttr)
+:::
+
+::: {.column width="45%" style='display: flex; justify-content: center; align-items: center;'}
+![](dante_packages.png){width="100%"}
+
+:::
+:::::
+
+## TOPS-SCHOOL {.smaller}
+
+#### ScienceCore Heuristics for Open Science Outcomes in Learning
+
+::: {.columns}
+::: {.column width="65%"}
+##### Overview {.smaller}
+- NASA-funded Open Science training curriculum
+- Joint effort between CIESIN, ISciences, CUNY
+- Emphasizes hands-on learning with real NASA datasets
+- Cloud-based learning environment/workshops (2i2c)
+- Case studies using recent environmental events
+- 4 Modules: [Water Module](https://ciesin-geospatial.github.io/TOPSTSCHOOL-water/), 
+[Air Quality](https://ciesin-geospatial.github.io/TOPSTSCHOOL-air-quality/), [Disasters](https://ciesin-geospatial.github.io/TOPSTSCHOOL-disasters/), [Climate and Agriculture](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/)
+:::
+
+::: {.column width="35%"}
+
+![](school-logo.png){width="100%"}
+
+:::
+:::
+
+## TOPS-SCHOOL Case Studies {.smaller}
+
+::: {.columns}
+::: {.column width="50%"}
+![](flash-drought.png){width="80%"}
+:::
+
+::: {.column width="50%"}
+### Sample Lessons {.smaller}
+- [WSIM-GLDAS: Acquisition, Exploration, and Integration](https://ciesin-geospatial.github.io/TOPSTSCHOOL-water/m101-wsim-gldas.html)
+- [Exploring Air Quality, Social Vulnerability, and Health Outcomes in Metro Detroit](https://ciesin-geospatial.github.io/TOPSTSCHOOL-air-quality/m202-svi-tri-icis-places.html)
+- [Geospatial Analysis of Canadian Wildfire Impacts: A Multi-sensor Approach
+](https://ciesin-geospatial.github.io/TOPSTSCHOOL-disasters/m302-wildfire-assessment.html)
+- [The 2022 Southern Plains Flash Drought: A Multi-Indicator Exploration](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/m403-flash-drought-ag.html)
+:::
+:::
+
+## SCALAR {.smaller}
+
+### ScienceCore Curriculum for AI Literacy and Research
+
+::: {.columns}
+::: {.column width="50%"}
+#### Overview {.smaller}
+- **Proposed** NASA HPOSS-funded follow-on to TOPS-SCHOOL
+- Addresses AI literacy challenges in Earth Sciences
+- Teaches responsible integration of LLMs with NASA data
+- Focuses on recent missions: TEMPO, ECOSTRESS, SPORT-LIS, SWOT, PACE
+- **Status**: Seeking funding and institutional home
+
+:::
+
+::: {.column width="50%"}
+#### Learning Outcomes {.smaller}
+- Access NASA Earth Science datasets with AI assistance
+- Design effective prompts for scientific contexts
+- Recognize and mitigate AI hallucinations and bias
+- Validate AI-generated code and analyses
+- Apply open science principles to AI workflows
+:::
+:::
+
+## nClimGrid Explorer {.smaller}
+
+### Interactive Climate Data Visualization Tool
+- R package and Shiny web application for NOAA nClimGrid-Daily dataset
+- Funded by ESIP Lab grant program
+- Provides open-science tools for climate and social vulnerability analysis
+
+![](nclim-screenshot.png){width="65%" fig-align="center" style="border: 1px solid #aaaa;"}
+
+
+## nClimGrid Explorer {.smaller}
+
+::: {.columns}
+::: {.column width="60%"}
+
+#### Applications {.smaller}
+- Climate researchers and emergency managers
+- Policy makers and practitioners
+- Drought monitoring and risk assessment
+- Environmental justice analyses
+:::
+
+::: {.column width="40%"}
+#### Access {.smaller}
+- [Package Gitlab Repo](https://gitlab.com/isciences/nclimgrid)
+- [Package Website](https://nclimgrid-08215f.gitlab.io/)
+- [Shiny App](https://nclimgrid.isciences.com)
+- [AWS S3 Bucket](https://isci-nclimgrid.s3.us-east-2.amazonaws.com/index.html)
+- [TOPS-SCHOOL Lesson](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/m402-nclimgrid.html)
+:::
+:::
+
+## exactextractr Package {.smaller}
+
+##### High-Performance Zonal Statistics for R
+
+::: {.columns}
+::: {.column width="65%"}
+#### Overview {.smaller}
+- Fast and accurate zonal statistics extraction from raster data
+- **Orders of magnitude faster** than competing methods (raster::extract, velox, ESRI, QGIS, GRASS, rasterio)
+- Implements precise algorithms for area-weighted statistics
+- Coverage fraction calculations for accurate area-weighted statistics
+:::
+
+::: {.column width="35%"}
+
+![](exactextract.png)
+
+:::
+:::
+
+::: {style="text-align: center;"}
+[Main Website](https://isciences.github.io/exactextract/) | [R Package Website](https://isciences.gitlab.io/exactextractr/) | [Python Module Website](https://pypi.org/project/exactextract/)
+:::
+
+## GDAL Contributions {.smaller}
+
+### Enhancing Open Geospatial Tools
+
+::: {.columns}
+::: {.column width="60%"}
+#### About GDAL {.smaller}
+- Industry-standard geospatial data abstraction library
+- Powers countless GIS applications and tools worldwide
+- Supports 200+ raster and vector formats
+- Used by QGIS, ArcGIS, Google Earth Engine, and more
+- Open-source (MIT/X license)
+
+#### Latest Contribution: `gdal raster zonal-stats` {.smaller}
+- **New command in GDAL 3.12.0 "Chicoutimi"** (upcoming release)
+- Brings exactextractr-style performance to native GDAL
+- Fast, accurate area-weighted zonal statistics
+- C++ implementation integrated into core GDAL
+- Part of the modern `gdal` unified command interface
+:::
+
+::: {.column width="40%"}
+#### Key Features {.smaller}
+- **Three pixel methods**: default, all-touched, fractional coverage
+- **20+ statistics**: mean, sum, min/max, variance, weighted variants
+- **Weighting support**: population-weighted calculations
+- **Pipeline integration**: combine with other GDAL operations
+- Works with polygons or categorical rasters
+- Handles different resolutions automatically
+
+#### Impact {.smaller}
+- Fills critical gap in GDAL utilities
+- No Python dependencies required
+- Command-line accessible for all users
+- [Docs](https://gdal.org/programs/gdal_raster_zonal_stats.html)
+:::
+:::
+
+## WSIM: Water Security Indicator Model {.smaller}
+
+::: {.columns}
+::: {.column width="50%"}
+#### Overview {.smaller}
+- Global water security monitoring and forecasting system
+- Operating continuously since April 2011
+- Monthly reports with 1-9 month lead-times
+- Validated against subsequently observed data
+- Regional blogs detail monthly conditions globally
+
+#### Technical Approach {.smaller}
+- **Data Source**: ECMWF Reanalysis v5 (ERA5)
+- **Resolution**: Quarter-degree (upgraded from half-degree)
+- **Baseline Period**: 1981-2020 (satellite era focus)
+- **Forecast Model**: NOAA CFSv2 ensemble forecasts
+- Composite anomaly index based on soil moisture, ET deficit, runoff, and blue water
+:::
+
+::: {.column width="50%"}
+![](wsim_logo.png){width="60%"}
+
+#### Key Features {.smaller}
+- Return period methodology (3-40+ year events)
+- Five severity categories: abnormal to exceptional
+- Depicts both deficits (red) and surpluses (blue)
+- Purple shading indicates concurrent deficit/surplus
+
+#### Current Status & Future {.smaller}
+- Monthly regional blogs available
+- Detailed reports available via ISciences
+- **Seeking**: NASA INNOVATE grant funding
+- **Vision**: Open cloud-based version for public access
+- Contact for partnership opportunities
+:::
+:::
+
+## Open Science Impact {.smaller}
+
+::: {.columns}
+::: {.column width="50%"}
+### Benefits {.smaller}
+- Roadmaps for data and tool access
+- Reduced barriers to learning
+- Diverse stakeholder participation
+- Community feedback integration
+- Transparency builds trust
+:::
+
+::: {.column width="50%"}
+### Principles {.smaller}
+- Open data and code
+- Reproducible workflows
+- Community-driven development
+- Comprehensive documentation
+- Educational resource sharing
+:::
+:::
+
+## Resources & Links {.smaller}
+
+::: {style="font-size: 0.9em;"}
+- **TOPS-SCHOOL**: [https://ciesin-geospatial.github.io/TOPSTSCHOOL/](https://ciesin-geospatial.github.io/TOPSTSCHOOL/)
+- **SCALAR**: Seeking funding - Contact for collaboration opportunities
+- **nClimGrid Explorer**: [https://gitlab.com/isciences/nclimgrid](https://gitlab.com/isciences/nclimgrid)
+- **exactextractr**: [https://isciences.gitlab.io/exactextractr/](https://isciences.gitlab.io/exactextractr/)
+- **DANTE**: [https://www.dante-project.org](https://www.dante-project.org) | [https://gitlab.com/dante-sttr](https://gitlab.com/dante-sttr)
+- **GDAL**: [https://gdal.org](https://gdal.org)
+- **WSIM**: Available via ISciences - Contact for reports and data
+
+**Contact**: jbrinks@isciences.com
+:::
+
+## Thank You {.smaller}
+
+### Acknowledgments
+
+- NASA TOPS/Open Science
+- Center for International Earth Science Information Network (CIESIN) - Columbia University
+- Open Science Team and SCHOOL contributors
+- Open source community contributors
+
+::: {.callout-note appearance="simple"}
+All materials available under open licenses. Visit our repositories for code, data, and documentation.
+:::
