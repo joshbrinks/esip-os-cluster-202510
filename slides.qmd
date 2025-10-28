@@ -304,7 +304,7 @@ format:
 -->
 ## NIDIS / Drought.gov
 
-::: {style="font-size: 0.75em;"}
+:::: {style="font-size: 0.75em;"}
 ::: {.columns}
 ::: {.column width="50%"}
 - We have multiple employees serving in various capacities of drought.gov
@@ -313,13 +313,13 @@ format:
   - Full cloud hosted open data and code
   - Integration with drought.gov forecasting and warning system
   - Previewing at AMS in January
-  :::
+:::
 
 ::: {.column width="50%"}
 ![](climatology.png){width="100%" fig-align="center"}
 :::
 :::
-:::
+::::
 
 
 ## Lessons Learned
