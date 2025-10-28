@@ -301,9 +301,9 @@ format:
 -->
 
 ## Lessons Learned
-- Stakeholder
-- Nice domains
-- Front end product
+- Stakeholder engagement and design
+- Niche domains have proven difficult
+- Simplify the front end product
 - Not everyone is on board
 
 ## Thank You {.smaller}
