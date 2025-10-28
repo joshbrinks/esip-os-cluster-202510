@@ -178,24 +178,27 @@ format:
 
 ## nClimGrid Explorer {.smaller}
 
-::: {.columns}
-::: {.column width="60%"}
-
-#### Applications {.smaller}
-- Climate researchers and emergency managers
-- Policy makers and practitioners
-- Drought monitoring and risk assessment
-- Environmental justice analyses
-:::
-
-::: {.column width="40%"}
-
+::::: {.columns style='display: flex !important; height: 90%;'}
+::: {.column width="60%" style='display: flex; flex-direction: column; justify-content: center; align-items: center;'}
+::: {style="max-width: 100%; overflow-x: auto;"}
+- Lots of stakeholder possibilities
+  - Political representatives
+  - Land conservancies
+  - Municipal climate support systems
+  - EJ and vulnerable population support
+- Deciding where to go next after beta release
 :::
 :::
+
+::: {.column width="40%" style='display: flex; justify-content: center; align-items: center;'}
+![](clim-circle.png){width="100%"}
+:::
+:::::
 
 ::: {style="text-align: center;"}
 [Gitlab Repo](https://gitlab.com/isciences/nclimgrid) | [Package Site](https://nclimgrid-08215f.gitlab.io/) | [Shiny App](https://nclimgrid.isciences.com) [S3 Bucket](https://isci-nclimgrid.s3.us-east-2.amazonaws.com/index.html) | [TOPS SCHOOL Lesson](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/m402-nclimgrid.html)
 :::
+
 ## exactextractr Package {.smaller}
 
 ##### High-Performance Zonal Statistics for R
@@ -299,6 +302,25 @@ format:
 <!--
 
 -->
+## NIDIS / Drought.gov
+
+::: {style="font-size: 0.75em;"}
+::: {.columns}
+::: {.column width="50%"}
+- We have multiple employees serving in various capacities of drought.gov
+- Awaiting go-ahead on an open science NIDIS grant addressing non-stationarity in long term climatologies.
+  - Stakeholder advisory panel
+  - Full cloud hosted open data and code
+  - Integration with drought.gov forecasting and warning system
+  - Previewing at AMS in January
+  :::
+
+::: {.column width="50%"}
+![](climatology.png){width="100%" fig-align="center"}
+:::
+:::
+:::
+
 
 ## Lessons Learned
 - Stakeholder engagement and design
