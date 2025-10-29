@@ -196,7 +196,7 @@ format:
 :::::
 
 ::: {style="text-align: center;"}
-[Gitlab Repo](https://gitlab.com/isciences/nclimgrid) | [Package Site](https://nclimgrid-08215f.gitlab.io/) | [Shiny App](https://nclimgrid.isciences.com) [S3 Bucket](https://isci-nclimgrid.s3.us-east-2.amazonaws.com/index.html) | [TOPS SCHOOL Lesson](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/m402-nclimgrid.html)
+[Gitlab Repo](https://gitlab.com/isciences/nclimgrid) | [Package Site](https://nclimgrid-08215f.gitlab.io/) | [Shiny App](https://nclimgrid.isciences.com) | [S3 Bucket](https://isci-nclimgrid.s3.us-east-2.amazonaws.com/index.html) | [TOPS SCHOOL Lesson](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/m402-nclimgrid.html)
 :::
 
 ## exactextractr Package {.smaller}
